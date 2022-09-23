@@ -1,0 +1,96 @@
+/* reset */
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+}
+body * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-weight: 300;
+}
+
+ul, dl, dt, dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ol {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+a:hover {
+  text-decoration: none;
+}
+
+input, select, textarea, fieldset, button {
+  outline: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  min-width: auto;
+  border: 0;
+  cursor: pointer;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #999999;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #999999;
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color: #999999;
+}
+
+input::-ms-input-placeholder, textarea::-ms-input-placeholder {
+  color: #999999;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #999999;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+em {
+  font-style: normal;
+}
+
+textarea {
+  resize: none;
+}
+
+.hidden {
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  display: inline-block;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  margin: 0;
+}
